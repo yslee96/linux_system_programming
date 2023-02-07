@@ -7,6 +7,12 @@
 -  dmesg 상에 priority 가 10 인 프로세스의 cpu burst time 이 출력되도록 
    커널 소스 코드 수정 및 컴파일
 
+## 요구 사항
+- 자식 프로세스 fork() 기능 구현
+- 시간 측정 위한 time_diff() 함수 구현
+- <sched.h> 활용해 프로세스 스케줄링 방식 round robin 으로 변경
+- sched_priority 값 변경
+
 ## Result
 <img width="706" alt="스크린샷 2022-12-13 오후 5 57 13" src="https://user-images.githubusercontent.com/77106988/217213342-7d53622f-25f8-45d0-8c20-d99e55133f27.png">
 
