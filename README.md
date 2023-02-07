@@ -4,7 +4,8 @@
 ## 실험 방법
 - 실험환경(OS) : Ubuntu 18.04, Linux(4.20.11), x86_64 에서 진행한다.
 - cpu.c 를 통해서 100ms 동안 특정 프로세스가 수행한 연산의 횟수를 측정
--  dmesg 상에 priority 가 10 인 프로세스의 cpu burst time 이 출력되도록 커널 소스 코드 수정
+-  dmesg 상에 priority 가 10 인 프로세스의 cpu burst time 이 출력되도록 
+   커널 소스 코드 수정 및 컴파일
 
 ## Result
 <img width="706" alt="스크린샷 2022-12-13 오후 5 57 13" src="https://user-images.githubusercontent.com/77106988/217213342-7d53622f-25f8-45d0-8c20-d99e55133f27.png">
